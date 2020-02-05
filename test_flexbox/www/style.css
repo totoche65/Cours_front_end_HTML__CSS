@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	background: yellow;
+}
+
+header {
+	background: red;
+	padding-left: 50px;
+}
+
+nav {
+	background: green;
+	padding-left: 5px;
+}
+
+section {
+	background: purple;
+	display: flex;
+}
+
+article {
+
+	background: pink;
+
+}
+
+aside {
+	background: blue;
+}
+
+footer {
+	background: orange;
+	padding-left: 50px;
+}
+
+ul {
+	display:flex;
+}
+
+li {
+	margin-left: 50px;
+	list-style: none;
+}

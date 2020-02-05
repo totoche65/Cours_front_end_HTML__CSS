@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-style: italic;
+  color: white;
+}
+
+body {
+ background: url("img/fd.jpg") no-repeat top center;
+ background-size: cover;
+
+}
+
+video {
+  position: fixed;
+  z-index: -1;
+  min-height: 100%;
+  min-width: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+
+main {
+width: 1100px;
+margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#social {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+ padding-left: 20px;
+}
+
+
+#main_menu {
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+ol {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+ol li {
+  text-transform: uppercase;
+}
+
+#main_menu ol li ul {
+display: none;
+padding: 2px;
+border-radius: 5px;
+}
+
+#main_menu ol li ul li {
+  list-style: none;
+  color: black;
+  text-transform: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#main_menu ol li:hover ul{
+display: block;
+font-size: 12px;
+margin-top: 1px;
+background-color: white;
+position: absolute;
+}
+
+
+.menu_liste a {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 4px;
+}
+
+.menu_liste a:hover {
+  background-color: white;
+  border-radius: 5px;
+  color: red;
+  padding: 4px;
+  font-size: 15px;
+}
+
+section {
+  display: flex;
+  margin: auto;
+}
+
+#slider {
+  height: 435px;
+  border: solid 8px white;
+}
+
+#slider img {
+  width: 100%;
+}
+
+#trois_blocks{
+  border-bottom: 5px red;
+  margin-top: 30px;
+}
+
+.blocks {
+  height: 340px;
+  margin: auto;
+  align-items: center;
+}
+
+
+#circuit_description {
+  width: 360px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+
+h1 + p {
+  color: #bdc3c7;
+  justify-content:center;
+  align-items: center;
+  text-align: justify;
+}
+
+#events {
+  width: 340px;
+  background: url("img/fondGris.png")repeat ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#bouton_reservation {
+margin-top: 10px;
+}
+
+.events_li {
+  list-style-image:  url("img/puce.png");
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  justify-content:center;
+  align-items: center;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+aside {
+  width: 340px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  justify-content: center;
+  border-top: solid 2px white;
+  padding-top: 10px;
+}
+
+
+footer  p {
+  font-style: normal;
+  margin-top: 20px;
+}

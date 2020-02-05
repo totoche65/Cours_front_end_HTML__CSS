@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<nav>
+				<ul>
+					<li id="home"><a href="">Home</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="photo">
+			<img src="img/ident.jpg" alt="Photo d'identité">
+		</div>
+		<section>
+
+			<h1>Fiche d'identité de Mr Oualameche</h1>
+
+			<ul>
+				<li>xxxxxxxxxxx</li>
+				<li>xxxxxxxxxxx</li>
+				<li>xxxxxxxxxxx</li>
+				<li>xxxxxxxxxxx</li>
+			</ul>
+
+			<ul>
+				<li>xxxxxxxxxxx</li>
+				<li>xxxxxxxxxxx</li>
+				<li>xxxxxxxxxxx</li>
+				<li>xxxxxxxxxxx</li>
+			</ul>
+
+			<ul>
+				<li>xxxxxxxxxxx</li>
+				<li>xxxxxxxxxxx</li>
+				<li>xxxxxxxxxxx</li>
+				<li>xxxxxxxxxxx</li>
+			</ul>
+
+		</section>
+		<footer>
+			<p>
+				<a href=""><img src="img/picto01.png"></a>
+				<a href=""><img src="img/picto02.png"></a>
+				<a href=""><img src="img/picto03.png"></a>
+				<a href=""><img src="img/picto04.png"></a>
+				<a href=""><img src="img/picto05.png"></a>
+				<a href=""><img src="img/picto06.png"></a>
+			</p>
+		</footer>
+	</div>
+
+</body>
+</html>

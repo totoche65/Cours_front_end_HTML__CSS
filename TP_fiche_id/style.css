@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin:0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+body {
+ background: url("img/fd.jpg") fixed no-repeat top center;
+ background-size: cover;
+}
+
+main {
+width: 400px;
+margin: auto;
+background-color: #7e7e7e;
+border-radius: 10px;
+border: solid black 1px;
+margin-top: 50px;
+}
+
+header {
+ border-bottom: solid black 1px;
+ height: 40px;
+}
+
+nav {
+  padding-top:10px;
+  margin-left: 10px;
+}
+
+nav ul{
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.top {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+a{
+  color: white;
+}
+
+a:hover {
+  color:black;
+  text-decoration: underline;
+}
+
+#separ {
+  color: white;
+}
+
+section {
+  background-color:  	#C2C2C2;
+  border-bottom: solid black 1px;
+  text-align: center;
+  height: 360px;
+}
+
+div img {
+  margin-top: -25px;
+}
+
+h1 {
+  text-shadow: white 2px 2px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+#liste {
+  display: flex;
+  text-align: justify;
+  justify-content: space-around;
+}
+
+#liste li {
+  background-image:url("img/puce.png");
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+footer {
+  height: 40px;
+  text-align: center;
+}
+
+footer img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+}

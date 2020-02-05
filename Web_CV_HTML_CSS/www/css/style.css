@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+padding: 0;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background: url("waves.jpg") fixed no-repeat top center;
+}
+
+section {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+   font-size: 2em;
+   text-transform: uppercase;
+}
+
+p, h1{
+color: #333333;
+}
+
+h2, h3 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right: 5%;
+  padding-left: 15px;
+  color: #666666;
+  background-color: rgba(255,255,255,0.5);
+}
+
+p{
+  margin-top: 5px;
+  text-align: justify;
+  margin-right: 5%;
+}
+
+h3 {
+  margin-left: 2%;
+}
+
+ul, ol {
+  color:#30336b;
+  margin-left: 4%;
+}
+
+li {
+  list-style: none;
+  margin-top: 5px;
+  margin-right: 5%;
+}
+
+a {
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+span {
+  font-weight: bold;
+}
+
+img {
+  width: 25%;
+  height: auto;
+}
+
+
+#float {
+  display: flex;
+}
+
+#petit_texte {
+  font-size: 0.65em;
+  font-style: italic;
+}
+
+#photo_estelle {
+  text-align: center;
+}
+
+#retour {
+  color: #d35400;
+}
+

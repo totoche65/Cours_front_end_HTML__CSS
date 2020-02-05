@@ -1,0 +1,35 @@
+Html5, CSS3, UTF8
+
+Tailles:
+Main 1140px
+Header 155px
+Nav 45px
+Col gauche 850px
+Col droite 270px
+
+
+Couleurs:
+Bleu foncé #0e5f96
+Bleu clair #008bd3
+Bleu footer #00327b
+Rouge #9c2f03
+
+
+Barême:
+Respect de la charte graphique 8pts
+Respect des bonnes pratiques 4pts
+Respect du code et des normes 8pts
+
+
+
+
+
+
+
+
+BONUS +2pts:
+Sous menu fonctionnel
+BONUS +1pts:
+Video dans bloc actu
+
+
